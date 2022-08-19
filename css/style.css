@@ -234,6 +234,12 @@ ul {
   font-size: 28px;
 }
 
+@media screen and (max-width: 767px) {
+  .header__nav {
+    width: 275px;
+  }
+}
+
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -413,7 +419,7 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
-  .keys__item:first-child {
+  .keys__item {
     margin-bottom: 20px;
     max-width: 300px;
   }
@@ -544,8 +550,11 @@ ul {
 
 @media screen and (max-width: 767px) {
   .keys__list li {
-    margin-right: 10px;
-    width: 50px;
-    height: 50px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  .keys__list li:last-child {
+    margin: 0;
   }
 }

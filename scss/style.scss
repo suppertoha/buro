@@ -210,6 +210,10 @@ ul {
 
   &__nav {
     font-size: 28px;
+
+    @media screen and (max-width: 767px) {
+      width: 275px;
+    }
   }
 
   &__list {
@@ -358,11 +362,10 @@ ul {
   }
 
   &__item{
-    &:first-child{
-      @media screen and (max-width: 767px) {
-        margin-bottom: 20px;
-        max-width: 300px;
-      }
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 20px;
+      max-width: 300px;
     }
   }
 
@@ -468,9 +471,12 @@ ul {
 
     @media screen and (max-width: 767px) {
       li{
-        margin-right: 10px;
-        width: 50px;
-        height: 50px;
+        margin-right: 15px;
+        &:last-child{
+          margin: 0;
+        }
+        width: 40px;
+        height: 40px;
       }
     }
   }
