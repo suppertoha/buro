@@ -113,11 +113,25 @@ ul {
   }
 }
 
+.wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 // Header
 
 .header {
   background: url(../images/fon-bg.png) 50% / cover no-repeat;
+  flex-grow: 1;
   padding: 80px 0;
+
+  >.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
 
   @media screen and (max-width: 1300px) {
     padding: 40px 0;
@@ -143,7 +157,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 10;
     position: relative;
     z-index: 2;
 
