@@ -197,6 +197,7 @@ ul {
   letter-spacing: 20px;
   margin-bottom: 20px;
   line-height: 0.8;
+  margin-left: -10px;
 }
 
 .header__title h2 {
@@ -204,7 +205,6 @@ ul {
   font-weight: 300;
   line-height: 1;
   text-transform: uppercase;
-  margin-left: 10px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -223,10 +223,10 @@ ul {
   .header__title h1 {
     font-size: 80px;
     letter-spacing: 15px;
+    margin-left: -5px;
   }
   .header__title h2 {
     font-size: 20px;
-    margin-left: 5px;
   }
 }
 
@@ -236,7 +236,7 @@ ul {
 
 @media screen and (max-width: 767px) {
   .header__nav {
-    width: 265px;
+    width: 270px;
   }
 }
 
