@@ -242,6 +242,7 @@ ul {
 @media screen and (max-width: 767px) {
   .header__nav {
     width: 270px;
+    margin-top: 15px;
   }
 }
 
