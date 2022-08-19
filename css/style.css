@@ -197,6 +197,7 @@ ul {
   }
   .header__title h1 {
     font-size: 80px;
+    letter-spacing: 15px;
   }
   .header__title h2 {
     font-size: 20px;
@@ -382,6 +383,7 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 50px 0;
   }
 }
 
@@ -410,6 +412,21 @@ ul {
   right: -30px;
   bottom: 0px;
   background: url(../images/hand.png) 50%/cover no-repeat;
+}
+
+@media screen and (max-width: 1300px) {
+  .keys__title.keys-link:before {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .keys__title.keys-link:before {
+    width: 20px;
+    height: 20px;
+    right: -20px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
