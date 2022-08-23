@@ -346,11 +346,12 @@ ul {
 
       @media screen and (max-width: 1300px) {
         max-width: 40px;
+        top: 2px;
       }
 
       @media screen and (max-width: 767px) {
         width: 30px;
-        top: 2px;
+        
       }
     }
   }

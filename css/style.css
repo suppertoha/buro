@@ -373,13 +373,13 @@ ul {
 @media screen and (max-width: 1300px) {
   .header__ten img {
     max-width: 40px;
+    top: 2px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header__ten img {
     width: 30px;
-    top: 2px;
   }
 }
 
