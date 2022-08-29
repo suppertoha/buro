@@ -54,7 +54,7 @@ body {
 
 body {
   font: 400 16px 'CeraPro', sans-serif;
-  background: #ffffff;
+  background: #EB5E3F;
   letter-spacing: -0.24px;
   color: #fff;
 }
@@ -114,7 +114,7 @@ ul {
 }
 
 .wrapper {
-  height: 100%;
+  height: 99%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,6 +122,8 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
+  background: #EB5E3F;
 }
 
 .header {
