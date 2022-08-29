@@ -46,6 +46,12 @@ button:focus {
   outline: none;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   font: 400 16px 'CeraPro', sans-serif;
   background: #ffffff;
@@ -108,7 +114,7 @@ ul {
 }
 
 .wrapper {
-  height: 100vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,7 +129,6 @@ ul {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: 80px 0;
 }
 
 .header > .container {
@@ -138,12 +143,6 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-}
-
-@media screen and (max-width: 1300px) {
-  .header {
-    padding: 40px 0;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -443,7 +442,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 100px 0 80px;
+  padding: 40px 0;
 }
 
 @media screen and (max-width: 1300px) {

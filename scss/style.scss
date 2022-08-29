@@ -52,6 +52,11 @@ button:focus {
 *:focus {
   outline: none;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
 body {
   font: 400 16px 'CeraPro', sans-serif;
@@ -114,7 +119,7 @@ ul {
 }
 
 .wrapper {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -124,17 +129,12 @@ ul {
 .header {
   background: url(../images/fon-bg.png) 50% / cover no-repeat;
   flex-grow: 1;
-  padding: 80px 0;
 
   > .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-  }
-
-  @media screen and (max-width: 1300px) {
-    padding: 40px 0;
   }
 
   @media screen and (max-width: 767px) {
@@ -274,11 +274,6 @@ ul {
         a {
           width: 70px;
           height: 70px;
-
-          //img {
-          //  max-width: 40px;
-          //  height: auto;
-          //}
         }
       }
     }
@@ -293,11 +288,6 @@ ul {
         a {
           width: 50px;
           height: 50px;
-
-          //img {
-          //  max-width: 35px;
-          //  top: 2px;
-          //}
         }
       }
     }
@@ -329,7 +319,6 @@ ul {
         left: 0;
       }
 
-      
       @media screen and (max-width: 767px) {
         width: 33px;
         top: 2px;
@@ -351,7 +340,6 @@ ul {
 
       @media screen and (max-width: 767px) {
         width: 30px;
-        
       }
     }
   }
@@ -404,7 +392,7 @@ ul {
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    padding: 100px 0 80px;
+    padding: 40px 0;
 
     @media screen and (max-width: 1300px) {
       padding: 60px 0;
